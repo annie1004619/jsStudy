@@ -15,11 +15,6 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:ori" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
@@ -54,6 +49,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\김지원\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="" />
@@ -64,6 +62,7 @@
       <workItem from="1610817272899" duration="842000" />
       <workItem from="1610889916052" duration="15076000" />
       <workItem from="1610987049045" duration="3081000" />
+      <workItem from="1610993088354" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD]">
       <created>1610992790862</created>
@@ -88,16 +87,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD]" />
     <option name="LAST_COMMIT_MESSAGE" value="[ADD]" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="695" y="108" key="FileChooserDialogImpl" timestamp="1610983248128">
+    <state x="695" y="108" key="FileChooserDialogImpl" timestamp="1610993158562">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="695" y="108" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610983248128" />
+    <state x="695" y="108" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610993158562" />
     <state x="820" y="264" key="Github.ShareDialog" timestamp="1610983082625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -106,17 +106,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="291" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1610983288853" />
-    <state x="466" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610992887787">
+    <state x="466" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610994298010">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="466" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610992887787" />
-    <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610992796552">
+    <state x="466" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610994298010" />
+    <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610994086416">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610992796552" />
+    <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610994086416" />
     <state x="457" y="29" width="672" height="678" key="search.everywhere.popup" timestamp="1610959326180">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="457" y="29" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1610959326180" />
+    <state x="555" y="142" key="svn.repositoryBrowser" timestamp="1610993180330">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="555" y="142" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1610993180330" />
+    <state x="538" y="117" key="svn4idea.import.options" timestamp="1610993175462">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="538" y="117" key="svn4idea.import.options/0.0.1280.680@0.0.1280.680" timestamp="1610993175462" />
   </component>
 </project>
