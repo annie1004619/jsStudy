@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ori" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[ADD]" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/notion" />
+  </component>
+  <component name="ProjectId" id="1n9zokiJaptJAcelruxf74NWXlV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\jsStudy\variable" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="" />
+      <created>1610817271770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610817271770</updated>
+      <workItem from="1610817272899" duration="842000" />
+      <workItem from="1610889916052" duration="15076000" />
+      <workItem from="1610987049045" duration="3081000" />
+    </task>
+    <task id="LOCAL-00001" summary="[ADD]">
+      <created>1610992790862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610992790862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[ADD]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="695" y="108" key="FileChooserDialogImpl" timestamp="1610983248128">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="695" y="108" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610983248128" />
+    <state x="820" y="264" key="Github.ShareDialog" timestamp="1610983082625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="820" y="264" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1610983082625" />
+    <state x="291" y="0" width="914" height="680" key="SettingsEditor" timestamp="1610983288853">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="291" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1610983288853" />
+    <state x="466" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610992887787">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="466" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610992887787" />
+    <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610992796552">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610992796552" />
+    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup" timestamp="1610959326180">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1610959326180" />
+  </component>
+</project>

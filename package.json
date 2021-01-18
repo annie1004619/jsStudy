@@ -1,0 +1,19 @@
+{
+  "name": "jsstudy",
+  "version": "1.0.0",
+  "description": "jsStudy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annie1004619/jsStudy.git"
+  },
+  "author": "jiwonKim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annie1004619/jsStudy/issues"
+  },
+  "homepage": "https://github.com/annie1004619/jsStudy#readme"
+}
