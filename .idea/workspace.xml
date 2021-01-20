@@ -13,20 +13,23 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:ori" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[ADD]" />
+    <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[ADD]">
+      <change afterPath="$PROJECT_DIR$/jsNotion/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-01-19__2_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-01-19__2_58__Default_Changelist_.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/notion" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n9zokiJaptJAcelruxf74NWXlV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,6 +66,7 @@
       <workItem from="1610889916052" duration="15076000" />
       <workItem from="1610987049045" duration="3081000" />
       <workItem from="1610993088354" duration="1599000" />
+      <workItem from="1611145583888" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD]">
       <created>1610992790862</created>
