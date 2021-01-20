@@ -20,13 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[ADD]">
-      <change afterPath="$PROJECT_DIR$/jsNotion/class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-01-19__2_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-01-19__2_58__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsNotion/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsNotion/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,16 +47,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\prgrms-js\jsStudy\jsNotion" />
+      <recent name="C:\prgrms-js\jsStudy" />
       <recent name="C:\jsStudy\variable" />
     </key>
   </component>
@@ -66,7 +78,8 @@
       <workItem from="1610889916052" duration="15076000" />
       <workItem from="1610987049045" duration="3081000" />
       <workItem from="1610993088354" duration="1599000" />
-      <workItem from="1611145583888" duration="82000" />
+      <workItem from="1611145583888" duration="4846000" />
+      <workItem from="1611157458960" duration="6239000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD]">
       <created>1610992790862</created>
@@ -98,18 +111,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="[ADD]" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="695" y="108" key="FileChooserDialogImpl" timestamp="1610993158562">
+    <state x="730" y="108" key="FileChooserDialogImpl" timestamp="1611157406017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="695" y="108" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610993158562" />
+    <state x="730" y="108" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611157406017" />
     <state x="820" y="264" key="Github.ShareDialog" timestamp="1610983082625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="820" y="264" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1610983082625" />
-    <state x="291" y="0" width="914" height="680" key="SettingsEditor" timestamp="1610983288853">
+    <state x="323" y="0" width="914" height="680" key="SettingsEditor" timestamp="1611157442782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="291" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1610983288853" />
+    <state x="323" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1611157442782" />
     <state x="466" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610994298010">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -118,10 +131,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610994086416" />
-    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup" timestamp="1610959326180">
+    <state x="737" y="249" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611154015693">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1610959326180" />
+    <state x="737" y="249" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611154015693" />
+    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup" timestamp="1611163069023">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1611163069023" />
     <state x="555" y="142" key="svn.repositoryBrowser" timestamp="1610993180330">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
