@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[ADD]">
+      <change afterPath="$PROJECT_DIR$/jsNotion/object_.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jsNotion/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsNotion/class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,8 +52,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\김지원\AppData\Roaming\npm\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -79,7 +80,8 @@
       <workItem from="1610987049045" duration="3081000" />
       <workItem from="1610993088354" duration="1599000" />
       <workItem from="1611145583888" duration="4846000" />
-      <workItem from="1611157458960" duration="6239000" />
+      <workItem from="1611157458960" duration="6814000" />
+      <workItem from="1611219548106" duration="3931000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD]">
       <created>1610992790862</created>
@@ -119,10 +121,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="820" y="264" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1610983082625" />
-    <state x="323" y="0" width="914" height="680" key="SettingsEditor" timestamp="1611157442782">
+    <state width="670" height="131" key="GridCell.Tab.0.bottom" timestamp="1611219568625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="323" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1611157442782" />
+    <state width="670" height="131" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611219568625" />
+    <state width="670" height="131" key="GridCell.Tab.0.center" timestamp="1611219568625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="670" height="131" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611219568625" />
+    <state width="670" height="131" key="GridCell.Tab.0.left" timestamp="1611219568624">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="670" height="131" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611219568624" />
+    <state width="670" height="131" key="GridCell.Tab.0.right" timestamp="1611219568625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="670" height="131" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611219568625" />
+    <state x="323" y="0" width="914" height="680" key="SettingsEditor" timestamp="1611242956111">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="323" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1611242956111" />
     <state x="466" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610994298010">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
