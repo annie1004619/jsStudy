@@ -105,3 +105,111 @@ console.log(fruits.indexOf("🍓")); //0
 // 배열 안에 딸기가 두개 인데 indexOf는 첫번째로 딸기를 만났을 때 index를 return
 console.log(fruits.lastIndexOf("🍓")); //4
 // lastIndexOf는 마지막의 딸기를 return
+
+// practice
+const array = [1, 2, 3, 4];
+console.log(array.toLocaleString());
+console.log(array.toString());
+console.log(fruits.toString());
+console.log(fruits.toLocaleString());
+
+console.log(array.concat(5, 6)); //[1, 2, 3, 4, 5, 6]
+console.log(array.concat([7, 8])); //[1, 2, 3, 4, 7, 8]
+
+console.log(array.join("")); //1234
+console.log(array.join("+")); //1+2+3+4
+console.log(array.reverse()); //[4, 3, 2, 1]
+
+console.log(array.shift()); //4
+
+console.log(array.sort()); //[1, 2, 3]
+
+const array2 = [11, 2, 22, 1];
+//console.log(array2.sort());
+//[1, 11, 2, 22]
+
+console.log(`array2: ${array2}`);
+// array2: 11, 2, 22, 1
+// compareFunction의 결과가 0보다 작은 결과 a가 b보다 낮은 색인으로 정렬
+console.log(
+  array2.sort((a, b) => {
+    console.log(`a: ${a}, b: ${b}`);
+    return a - b;
+  })
+);
+//a: 2, b: 11
+//a: 22, b: 2
+//a: 22, b: 11
+//a: 1, b: 11
+//a: 1, b: 2
+// 결과는 [1, 2, 11, 22]
+
+console.log(array2.slice(1)); //[2, 11, 22]
+console.log(array2.slice(2, 3)); // [11]
+console.log(array2.slice(1, array2.length)); //[2, 11, 22]
+console.log(array2.slice(0, 0)); //[]
+
+const isOverTen = (currentValue) => currentValue > 10;
+
+const mixedNumber = [1, 10, 13, 35, 2, 40];
+const digitOfTen = [11, 12, 13, 14, 15];
+const digitOfOne = [1, 2, 3, 4];
+
+console.log(mixedNumber.every(isOverTen)); //false
+console.log(digitOfTen.every(isOverTen)); //true
+
+console.log(mixedNumber.some(isOverTen)); //true
+console.log(digitOfOne.some(isOverTen)); //false
+
+// reducer
+//리듀서 함수는 네개의 인자를 가집니다.
+// 1.누산기 2.현재 값 3.현재 인덱스 4.원본 배열
+// 반환 값은 누산기에 할당되고, 누산기는 순회 중 유지되므로 결국 최종 결과는 하나의 값이 됩니다.
+
+const numberArray = [1, 2, 3, 4];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+console.log(numberArray.reduce(reducer)); //10
+
+console.log(numberArray.reduce(reducer, 5)); //15
+
+console.log(numberArray.reduce((acc, cur) => acc + cur));
+//10
+
+//배열이 비어있는데 initalValue도 제공하지 않으면 TypeError가 발생함
+// 콜백의 최초 호출 때  initialValue를 제공한 경우,
+// accumulator는 initialValue와 같고 currentValue는 배열의 첫번째 값과 같다.
+// initialValue를 제공하지 않았다면,
+// accumulator는 배열의 첫번째 값과 같고, currentValue는 두번째와 같다.
+
+[0, 1, 2, 3, 4].reduce((prev, curr) => prev + curr);
+// 두번째 인자로 초기값을 제공하는 경우
+[0, 1, 2, 3, 4].reduce(function (
+  accumulator,
+  currentValue,
+  currentIndex,
+  array
+) {
+  return accumulator + currentValue;
+},
+10);
+
+//배열의 중복 항목 제거
+let arr = [1, 2, 1, 2, 3, 5, 4, 5, 3, 4, 4, 4, 4];
+let result = arr.sort().reduce((acc, curr) => {
+  const length = acc.length;
+  if (length === 0 || acc[length - 1] !== curr) {
+    acc.push(curr);
+  }
+  return acc;
+}, []);
+console.log(result); //[1, 2, 3, 4, 5]
+
+const reduceRightArray = [
+  [0, 1],
+  [2, 3],
+  [4, 5],
+].reduceRight((acc, curr) => acc.concat(curr));
+
+console.log(reduceRightArray);
+//[4, 5, 2, 3, 0, 1]
