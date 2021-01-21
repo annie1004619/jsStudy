@@ -162,11 +162,13 @@ triangle.draw();
 console.log(triangle.getArea());
 
 // 6. Class checking: instanceOf
+/*
 console.log(rectangle instanceOf Rectangle); //t
 console.log(triangle instanceOf Rectangle); //f
 console.log(triangle instanceOf Triangle); //t
 console.log(triangle instanceOf Shape); //t
 console.log(triangle instanceOf Object); //t
+*/
 // 모든 object class 들은 Object를 상속한것이다.
 
 
