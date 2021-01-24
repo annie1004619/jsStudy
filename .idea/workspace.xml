@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[ADD]">
-      <change afterPath="$PROJECT_DIR$/jsNotion/object_.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsNotion/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsNotion/class.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <workItem from="1610993088354" duration="1599000" />
       <workItem from="1611145583888" duration="4846000" />
       <workItem from="1611157458960" duration="6814000" />
-      <workItem from="1611219548106" duration="3931000" />
+      <workItem from="1611219548106" duration="20742000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD]">
       <created>1610992790862</created>
@@ -113,6 +111,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="[ADD]" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="85" y="118" key="#Notifications" timestamp="1611253279623">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="85" y="118" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1611253279623" />
     <state x="730" y="108" key="FileChooserDialogImpl" timestamp="1611157406017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
