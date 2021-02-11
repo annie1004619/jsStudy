@@ -71,6 +71,11 @@
                     }
                 })
             }
+            const invalidData = todos.some(todo =>
+                typeof todo.text !== 'string' || typeof todo.isCompleted !== 'boolean')
+            if (invalidData) {
+                throw new Error('The contents of the data are invalid')
+            }
         }
 
         this.setState = function (nextData) {
