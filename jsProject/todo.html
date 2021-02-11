@@ -2,7 +2,7 @@
 
 <head>
     <title>Mission 1</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
 </head>
 
 <body>
@@ -54,15 +54,17 @@
             throw new Error('TodoList instantiated with new')
         }
 
-        this.validateTodos  = function(todos) {
+        this.validateTodos = function (todos) {
             //data가 null 혹은 undefined인 경우
             if (todos === null || todos === undefined) {
                 throw new Error('data is null or undefined')
                 // data가 array가 아닌 형태로 넘어올 경우
-            } else if (!Array.isArray(todos)) {
+            }
+            if (!Array.isArray(todos)) {
                 throw new Error('data is not a array')
                 //data가 array이지만 array의 내용이 이상할 경우
-            } else if (Array.isArray(todos)) {
+            }
+            if (Array.isArray(todos)) {
                 todos.map((value) => {
                     if (typeof value.text !== 'string') {
                         throw new Error('The contents of the data are invalid')
@@ -71,16 +73,16 @@
             }
         }
 
-        this.setState = function(nextData) {
-            this.validateTodos (nextData)
+        this.setState = function (nextData) {
+            this.validateTodos(nextData)
             this.todos = nextData
             this.render()
 
         }
 
-        this.validateTodos (todos)
+        this.validateTodos(todos)
 
-        this.render = function() {
+        this.render = function () {
             const htmlString = this.todos.map((todo) =>
                 todo.isCompleted ? `<s><li>${todo.text}</li></s>` : `<li>${todo.text}</li>`,
             ).join('')
