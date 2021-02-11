@@ -84,8 +84,6 @@
 
         }
 
-        this.validateTodos(todos)
-
         this.render = function () {
             const htmlString = this.todos.map((todo) =>
                 todo.isCompleted ? `<s><li>${todo.text}</li></s>` : `<li>${todo.text}</li>`,
@@ -94,14 +92,17 @@
             $targetId.innerHTML = `<div><b>${todoTitle}</b></div> <ul>${htmlString}</ul>`
 
         }
+
+        this.validateTodos(todos)
+        this.render()
     }
 
     const todoList = new TodoList(data, document.querySelector('#todo-list'), 'TodoList')
-    todoList.render()
     const dayTodoList = new TodoList(dayData, document.querySelector('#todo-day'), 'TodoList-Day')
-    dayTodoList.render()
     const weekTodoList = new TodoList(weekData, document.querySelector('#todo-week'), 'TodoList-Week')
-    weekTodoList.setState(newData)
+   setTimeout(()=>{
+       weekTodoList.setState(newData)
+   },3000)
 </script>
 </body>
 
