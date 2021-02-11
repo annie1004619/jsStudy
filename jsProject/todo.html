@@ -100,9 +100,9 @@
     const todoList = new TodoList(data, document.querySelector('#todo-list'), 'TodoList')
     const dayTodoList = new TodoList(dayData, document.querySelector('#todo-day'), 'TodoList-Day')
     const weekTodoList = new TodoList(weekData, document.querySelector('#todo-week'), 'TodoList-Week')
-   setTimeout(()=>{
-       weekTodoList.setState(newData)
-   },3000)
+    setTimeout(() => {
+        weekTodoList.setState(newData)
+    }, 3000)
 </script>
 </body>
 
