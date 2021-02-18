@@ -49,7 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prgrms-fejs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\김지원\AppData\Roaming\npm\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
@@ -85,7 +85,9 @@
       <workItem from="1611817535614" duration="655000" />
       <workItem from="1611912726046" duration="12000" />
       <workItem from="1611916612504" duration="1392000" />
-      <workItem from="1613034320709" duration="3084000" />
+      <workItem from="1613034320709" duration="4358000" />
+      <workItem from="1613552770036" duration="1425000" />
+      <workItem from="1613629705455" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD]">
       <created>1610992790862</created>
@@ -129,10 +131,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="85" y="118" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1611253279623" />
-    <state x="504" y="43" key="FileChooserDialogImpl" timestamp="1611674021221">
+    <state x="504" y="43" key="FileChooserDialogImpl" timestamp="1613553697244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="504" y="43" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611674021221" />
+    <state x="504" y="43" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1613553697244" />
     <state x="820" y="264" key="Github.ShareDialog" timestamp="1610983082625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -169,10 +171,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="737" y="249" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611154015693" />
-    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup" timestamp="1611163069023">
+    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup" timestamp="1613634888627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1611163069023" />
+    <state x="457" y="29" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1613634888627" />
     <state x="555" y="142" key="svn.repositoryBrowser" timestamp="1610993180330">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

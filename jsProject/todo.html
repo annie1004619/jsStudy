@@ -64,7 +64,7 @@
                 //data가 array이지만 array의 내용이 이상할 경우
             }
             if (Array.isArray(todos)) {
-                todos.map((value) => {
+                todos.forEach((value) => {
                     if (typeof value.text !== 'string') {
                         throw new Error('The contents of the data are invalid')
                     }
