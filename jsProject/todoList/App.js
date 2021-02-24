@@ -1,9 +1,10 @@
-function App($target, initialState) {
+function App($app, initialState) {
   this.state = initialState;
+
   this.todoInput = new TodoInput({
     $app,
     onAddTodo: (text) => {
-      this.state = [
+      const nextState = [
         ...this.state,
         {
           text,
@@ -11,8 +12,37 @@ function App($target, initialState) {
         },
       ];
 
-      this.todoList.setState(this.state);
+      this.setState(nextState);
     },
   });
-  this.todoList = new TodoList($target, this.state);
+  this.todoList = new TodoList({
+    $app,
+    todos: this.state,
+    onCompletedTodo: (index) => {
+      const nextState = [...this.state];
+
+      nextState[index] = {
+        text: nextState[index].text,
+        isCompleted: !nextState[index].isCompleted,
+      };
+      this.state = nextState;
+      this.setState(nextState);
+    },
+    onDeleteTodo: (index) => {
+      const nextState = [...this.state];
+      nextState.splice(index, 1);
+      this.state = nextState;
+      this.setState(nextState);
+    },
+  });
+  this.todoCount = new TodoCount({
+    $app,
+    todos: this.state,
+  });
+
+  this.setState = (nextState) => {
+    this.state = nextState;
+    this.todoList.setState(this.state);
+    this.todoCount.setState(this.state);
+  };
 }
