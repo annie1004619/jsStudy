@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[fix] map -&gt; foreach">
-      <change afterPath="$PROJECT_DIR$/jsProject/todoList/TodoCount.js" afterDir="false" />
+    <list default="true" id="f2c3be30-c4aa-42df-b225-86d5a8e86187" name="Default Changelist" comment="[add] TodoCount, 삭제버튼">
+      <change afterPath="$PROJECT_DIR$/jsNotion/deepcopy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsProject/todoList/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsProject/todoList/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsProject/todoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsProject/todoList/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsProject/todoList/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsProject/todoList/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prgrms-fejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\김지원\AppData\Roaming\npm\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
@@ -90,7 +89,8 @@
       <workItem from="1611916612504" duration="1392000" />
       <workItem from="1613034320709" duration="4358000" />
       <workItem from="1613552770036" duration="1425000" />
-      <workItem from="1613629705455" duration="9961000" />
+      <workItem from="1613629705455" duration="12935000" />
+      <workItem from="1616603264334" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD]">
       <created>1610992790862</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613636092014</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[add] TodoCount, 삭제버튼">
+      <created>1614167506044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614167506044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,17 +142,18 @@
     <MESSAGE value="[ADD]" />
     <MESSAGE value="[ADD] todo" />
     <MESSAGE value="[fix] map -&gt; foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix] map -&gt; foreach" />
+    <MESSAGE value="[add] TodoCount, 삭제버튼" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] TodoCount, 삭제버튼" />
   </component>
   <component name="WindowStateProjectService">
     <state x="85" y="118" key="#Notifications" timestamp="1611253279623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="85" y="118" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1611253279623" />
-    <state x="504" y="43" key="FileChooserDialogImpl" timestamp="1613643936906">
+    <state x="504" y="43" key="FileChooserDialogImpl" timestamp="1614233092636">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="504" y="43" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1613643936906" />
+    <state x="504" y="43" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614233092636" />
     <state x="820" y="264" key="Github.ShareDialog" timestamp="1610983082625">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -170,10 +178,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="323" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1613035600617" />
-    <state x="466" y="74" key="Vcs.Push.Dialog.v2" timestamp="1613636098941">
+    <state x="466" y="74" key="Vcs.Push.Dialog.v2" timestamp="1614167513702">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="466" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613636098941" />
+    <state x="466" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1614167513702" />
     <state x="717" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610994086416">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -182,6 +190,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="737" y="249" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611154015693" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1616603995243">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1616603995243" />
     <state x="457" y="29" width="672" height="678" key="search.everywhere.popup" timestamp="1613634888627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

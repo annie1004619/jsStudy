@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/annie1004619/jsStudy#readme",
   "dependencies": {
-    "core-util-is": "^1.0.2"
+    "core-util-is": "^1.0.2",
+    "lodash": "^4.17.21"
   }
 }
